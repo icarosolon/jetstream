@@ -63,5 +63,21 @@ class JetstreamServiceProvider extends ServiceProvider
             'create',
             'update',
         ])->description(__('Editor users have the ability to read, create, and update.'));
+
+        /*  Jetstream::role('admin', __('Recepcionista'), [
+            'cadastrar_clientes',
+            'visualizar_clientes',
+        ])->description(__('Recepcionista users can perform any action.'));
+
+        Jetstream::role('admin', __('Supervisor'), [
+            'cadastrar_clientes',
+            'visualizar_clientes',
+            'atualiza_clientes',
+            'deleta_clientes',
+            'caixa_abertura',
+            'caixa_fechamento',
+            'transferencia',
+        ])->description(__('Recepcionista users can perform any action.'));
+ */
     }
 }
